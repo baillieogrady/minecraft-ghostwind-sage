@@ -1,4 +1,4 @@
-# Minescraft ghostwind sage
+# Minecraft ghostwind sage
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/mincaso-sage#info=devDependencies)
 
 ## What is Minecraft Ghostwind sage?
