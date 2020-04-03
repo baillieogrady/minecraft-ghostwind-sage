@@ -4,9 +4,9 @@
 {{-- hero --}} 
 <div class="w-full m-0 p-0 bg-cover bg-bottom" style="@foreach($latest as $latest_post)background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url('{{ $latest_post['thumbnail'] }}'); @endforeach height: 60vh; max-height:460px;">
   <div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
-    <p class="text-white font-extrabold text-3xl md:text-5xl">
+    <h1 class="text-white font-extrabold text-3xl md:text-5xl">
       {{ bloginfo('name') }}
-    </p>
+    </h1>
     <p class="text-xl md:text-2xl text-gray-500">{!! get_bloginfo('description') !!}</p>
   </div>
 </div>
