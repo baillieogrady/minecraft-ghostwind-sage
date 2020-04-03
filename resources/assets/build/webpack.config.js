@@ -213,9 +213,6 @@ let webpackConfig = {
           extensions: ["js", "php"]
         }
       ],
-      whitelist: [ // Only if you need it!
-        '#menu-primary-navigation',
-      ],
     }),
   ],
 };
