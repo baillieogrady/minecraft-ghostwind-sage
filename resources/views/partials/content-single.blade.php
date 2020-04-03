@@ -20,15 +20,15 @@
       
     </div>
     <!--Progress bar-->
-    <div id="progress" class="h-1 bg-white shadow" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+    <div id="progress" class="h-1 bg-white shadow" style="background:linear-gradient(to right, #48791f var(--scroll), transparent 0);"></div>
   </div>
   <!--Title-->
   <div class="text-center pt-16 md:pt-32">
-    <p class="text-sm md:text-base text-teal-500 font-bold">{{ the_date() }} <span class="text-gray-900">/</span> {{ get_the_category()[0]->name }}</p>
+    <p class="text-sm md:text-base font-bold" style="color: #48791f;">{{ the_date() }} <span class="text-gray-900"> / </span> {{ get_the_category()[0]->name }}</p>
     <h1 class="font-bold break-normal text-3xl md:text-5xl">{{ the_title() }}</h1>
   </div>
   <!--image-->
-  <div class="container w-full max-w-6xl mx-auto bg-white bg-cover bg-center mt-8 rounded" style="background-image:url('{{ the_post_thumbnail_url('large') }}'); height: 50vh;"></div>
+  <div class="container w-full max-w-6xl mx-auto bg-white bg-cover bg-center mt-8" style="background-image:url('{{ the_post_thumbnail_url('large') }}'); height: 50vh;"></div>
   <!--Container-->
   <div class="container max-w-5xl mx-auto -mt-32">
     <div class="mx-0 sm:mx-6">

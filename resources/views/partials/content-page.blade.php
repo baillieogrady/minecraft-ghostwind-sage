@@ -27,7 +27,7 @@
     <h1 class="font-bold break-normal text-3xl md:text-5xl">{{ the_title() }}</h1>
   </div>
   <!--image-->
-  <div class="container w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded" style="background-image:url('{{ the_post_thumbnail_url('large') }}'); height: 50vh;"></div>
+  <div class="container w-full max-w-6xl mx-auto bg-white bg-cover mt-8" style="background-image:url('{{ the_post_thumbnail_url('large') }}'); height: 50vh;"></div>
   <!--Container-->
   <div class="container max-w-5xl mx-auto -mt-32">
     <div class="mx-0 sm:mx-6">

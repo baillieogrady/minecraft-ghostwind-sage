@@ -9,7 +9,9 @@
   }
 
   blockquote {
-    @apply border-l-4 border-teal-500 italic my-8 pl-8;
+    @apply italic my-8 pl-8;
+
+    border-left: 4px solid #6fb237;
   }
 
   pre {
@@ -21,6 +23,8 @@
   }
 
   a {
-    @apply text-gray-800 no-underline border-b-2 border-teal-500;
+    @apply text-gray-800 no-underline;
+
+    border-bottom: 2px solid #6fb237;
   }
 }

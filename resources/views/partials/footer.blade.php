@@ -1,5 +1,5 @@
-<footer class="mt-6 bg-contain" style="background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(@asset('images/bg.png'));">
-  <div class="container max-w-6xl mx-auto flex items-center px-2 py-8">
+<footer class="mt-6 bg-contain" style="background-color: #613720; border-top: 10px solid #48791f;">
+  <div class="container max-w-6xl mx-auto flex items-center px-6 py-8">
 
     <div class="w-full mx-auto flex flex-wrap items-center">
       <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">

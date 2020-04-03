@@ -1,5 +1,5 @@
 {{-- header --}}
-<nav class="bg-gray-900 p-4 mt-0 w-full">
+<nav class="p-4 mt-0 w-full" style="background-color: #48791f;">
 	<div class="container mx-auto flex items-center justify-center sm:justify-start">
 		<div class="flex text-white font-extrabold">
 		<a class="hidden sm:block flex text-white text-base no-underline hover:text-white hover:no-underline" href="{{ site_url() }}"> 
