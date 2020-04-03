@@ -1,0 +1,25 @@
+// .nav {
+//   a {
+//     @apply uppercase;
+//   }
+// }
+
+.nav {
+  li {
+    @apply mr-2;
+
+    a {
+      @apply inline-block py-2 px-2 no-underline text-gray-600;
+    }
+  }
+
+  .current-menu-item {
+    a {
+      @apply text-white;
+    }
+  }
+
+  a:hover {
+    @apply text-white;
+  }
+}

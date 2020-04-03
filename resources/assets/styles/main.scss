@@ -1,0 +1,22 @@
+/** Tailwind base styles */
+@tailwind base;
+
+/** Import everything from autoload */
+// @import "./autoload/**/*";
+
+/** Tailwind plugins */
+@tailwind components;
+
+/** Import theme styles */
+@import "partials/nav";
+@import "partials/wysiwyg";
+
+/** Tailwind utilities */
+@tailwind utilities;
+
+/** Define custom utilities */
+
+/** Vendor */
+
+@import "~animate.css/animate.min.css";
+@import "~tippy.js/dist/tippy.css";

@@ -1,0 +1,26 @@
+.wysiwyg {
+  p {
+    @apply py-6;
+  }
+
+  ol li,
+  ul li {
+    @apply py-3;
+  }
+
+  blockquote {
+    @apply border-l-4 border-teal-500 italic my-8 pl-8;
+  }
+
+  pre {
+    @apply bg-gray-900 rounded text-white font-mono text-base p-4;
+  }
+
+  code {
+    @apply break-words whitespace-pre-wrap;
+  }
+
+  a {
+    @apply text-gray-800 no-underline border-b-2 border-teal-500;
+  }
+}
