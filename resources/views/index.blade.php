@@ -20,7 +20,7 @@
     <nav class="mt-0 w-full">
       <div class="container mx-auto flex items-center">
         
-        <div class="flex w-2/3 pl-4 text-sm">
+        <div class="flex pl-4 text-sm">
           @if (has_nav_menu('primary_navigation'))
           {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav list-reset flex justify-between flex-1 md:flex-none items-center', 'container' => false]) !!}
           @endif
