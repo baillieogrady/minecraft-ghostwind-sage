@@ -9,6 +9,20 @@ use Roots\Sage\Template\BladeProvider;
 use StoutLogic\AcfBuilder\FieldsBuilder;
 
 /**
+ * Soberwp Models
+ */
+add_filter('sober/models/path', function () {
+    return get_theme_file_path() . '/app/models';
+});
+
+/**
+ * Soberwp Controller
+ */
+add_filter('sober/controller/path', function () {
+    return get_theme_file_path() . '/app/controllers';
+});
+
+/**
  * Theme assets
  */
 add_action('wp_enqueue_scripts', function () {
