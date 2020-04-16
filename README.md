@@ -6,10 +6,6 @@ Minecraft Ghostwind Sage is a custom WordPress theme forked from [ghostwind-sage
 
 [Demo](https://minecraft.baillieogrady.com/)
 
-### Additions
-- [Minecraft color palette](https://www.schemecolor.com/minecraft-game.php)
-- [Custom Minecraft font](https://textcraft.net/download-fonts.php) for heading elements.
-
 ## Usage
 
 [Download](http://baillieogrady.com/downloads/minecraft-ghostwind-sage.zip) production build and upload via WordPress.
