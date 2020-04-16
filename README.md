@@ -4,9 +4,23 @@
 ## What is Minecraft Ghostwind sage?
 minecraft-ghostwind-sage is a custom WordPress theme forked from [ghostwind-sage](https://github.com/baillieogrady/ghostwind-sage). I've made a few additions to make it exclusive for minecraft content.
 
-## Additions
+### Additions
 - [Minecraft color palette](https://www.schemecolor.com/minecraft-game.php)
 - [Custom Minecraft font](https://textcraft.net/download-fonts.php) for heading elements.
+
+## Installation
+
+[Download](http://baillieogrady.com/downloads/minecraft-ghostwind-sage.zip) production copy and upload via WordPress.
+
+**OR**
+
+Install theme into the WordPress themes directory
+
+```
+$ git clone https://github.com/baillieogrady/minecraft-ghostwind-sage
+```
+
+## Theme development
 
 ### Requirements
 
@@ -17,16 +31,6 @@ Make sure all dependencies have been installed before moving on:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js](http://nodejs.org/) >= 8.0.0
 * [Yarn](https://yarnpkg.com/en/docs/install)
-
-## Installation
-
-Install theme into the WordPress themes directory
-
-```
-$ git clone https://github.com/baillieogrady/minecraft-ghostwind-sage
-```
-
-## Theme development
 
 *See full roots sage source & setup [here](https://github.com/roots/sage)*
 
