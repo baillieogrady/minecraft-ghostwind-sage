@@ -2,7 +2,9 @@
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/minecraft-ghostwind-sage#info=devDependencies)
 
 ## What is Minecraft Ghostwind sage?
-minecraft-ghostwind-sage is a custom WordPress theme forked from [ghostwind-sage](https://github.com/baillieogrady/ghostwind-sage). I've made a few additions to make it exclusive for minecraft content.
+Minecraft Ghostwind Sage is a custom WordPress theme forked from [ghostwind-sage](https://github.com/baillieogrady/ghostwind-sage). I've made a few additions to make it exclusive for minecraft content.
+
+[Demo](https://minecraft.baillieogrady.com/)
 
 ### Additions
 - [Minecraft color palette](https://www.schemecolor.com/minecraft-game.php)
@@ -45,9 +47,3 @@ Make sure all dependencies have been installed before moving on:
 * `yarn start` — Compile assets when file changes are made, start Browsersync session
 * `yarn build` — Compile and optimize the files in your assets directory
 * `yarn build:production` — Compile assets for production
-
-## Contributing
-
-```
-$ git clone https://github.com/baillieogrady/minecraft-ghostwind-sage
-```
